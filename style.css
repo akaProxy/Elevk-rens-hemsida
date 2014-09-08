@@ -5,12 +5,14 @@
 }
 html, body {
     height: 100%;
+    min-width: 800px;
     background: rgb(240,240,240);
 }
 #wrapper {
     min-height: 100%;
     position: relative;
 }
+
 #header_nav > nav {
     position: relative;
     display: inline-block;
@@ -22,10 +24,11 @@ html, body {
     top: 0;
 	left: 0;
 	right: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    min-width: 800px;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    background-color: #D12121;
     display: block;
 }
-
 #header_logo {
     height: 48px;
     width: 240px;
@@ -51,16 +54,57 @@ html, body {
     list-style: none;
 }
 
-
-header {
+#wrapper > header {
     height: 400px;
     background-image: url('header.jpg');
     background-size: cover;
     background-position: center;
 }
 
-#content {
-    padding-bottom: 200px;
+
+main {
+    padding-bottom: 300px;
+    margin:auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1000px;
+}
+main>.instagram {
+    /*detta tror jag är instaflow*/
+    height: 100px;
+    float: left;
+    width: 300px;
+    background: red;
+    
+}
+main > .flow {
+
+    margin-left: 300px;
+}
+main > section > article > p {
+    padding: 10px;
+    }
+main > section > article > header {
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+main > section > article > header > h1 {
+    font-size: 25px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 10px;
+    
+}
+main > section > article > header > h2{
+    text-align: right;
+    font-size: 15px;
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    padding-right: 10px;
+    
 }
 
 footer {

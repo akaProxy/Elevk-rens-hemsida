@@ -13,54 +13,12 @@ html, body {
     position: relative;
 }
 
-#header_nav > nav {
-    position: relative;
-    display: inline-block;
-    margin: auto;
-}
-#header_nav {
-    text-align: center;
-    position: fixed;
-    top: 0;
-	left: 0;
-	right: 0;
-    min-width: 800px;
-    /*background-color: rgba(0, 0, 0, 0.3);*/
-    background-color: #D12121;
-    display: block;
-}
-#header_logo {
-    height: 48px;
-    width: 240px;
-    display: inline-block;
-    background-color: #ccc;
-    top: -15px;
-    text-align: left;
-    position: relative;
-    background-image: url('logo.jpg');
-    background-position: center;
-    background-size: contain;
-}
-#header_nav > nav > ul > li {
-    display: inline-block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 32px;
-    color: white;
-    font-weight: bold;
-}
-#header_nav > nav > ul {
-    display: inline-block;
-    list-style: none;
-}
-
 #wrapper > header {
     height: 400px;
     background-image: url('header.jpg');
     background-size: cover;
     background-position: center;
 }
-
 
 main {
     padding-bottom: 300px;
@@ -105,18 +63,4 @@ main > section > article > header > h2{
     right: 0;
     padding-right: 10px;
     
-}
-
-footer {
-    height: 200px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: #cdf;
-    background-color: rgb(200,200,200);
-    background-image: url('logo.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
 }

@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    min-width: 386px;
+}
+#slide{
+    position: absolute;
+    background-color: bisque;
+    top: 4em;
+    height: 11em;
+    width: 100%;
+}
+#content{
+    position: absolute;
+    width: 100%;
+    top: 15em;
+    background-color: #E88;
+    max-width: 1200px;
+    margin: auto;
+}
+.card .info .img-container{
+    position: relative;
+    width: 5em;
+    height: 5em;
+    border-radius: 5em;
+    overflow: hidden;
+    margin: 1em;
+    float: left;
+}
+.img-container img{
+    height: 100%;
+}
+.card{
+    font-family: helvetica, arial;
+    margin: 2em;
+    background-color: #FFF;
+}
+.card h2{
+    margin: 0;
+    padding: 1em 0 0 0;
+}
+.info span {
+    display: block;
+}
+.info p{
+    color: grey;
+    font-size: 0.7em;
+}
+.info p span{
+    color: black;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+summary{
+    padding: 0 1em 1em 1em;
+}
+#menu{
+    position: fixed;
+    top:0px;
+    height:4em;
+    width:100%;
+    background-color: red;
+    z-index: 99;
+}

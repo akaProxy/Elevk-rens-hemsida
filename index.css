@@ -1,6 +1,12 @@
 .bgred {
     background-color: #D12121;
 }
+.placement {
+    margin:auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1000px;
+}
 
 /**************************************************************/
 /*************************** HEADER ***************************/
@@ -51,7 +57,7 @@
 /*************************** FOOTER ***************************/
 /**************************************************************/
 
-footer {
+.main_footer {
     height: 200px;
     width: 100%;
     position: absolute;
@@ -59,9 +65,34 @@ footer {
     left: 0;
     background: #cdf;
     background-color: rgb(200,200,200);
-    background-image: url('logo.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
-
+.main_footer > div {
+    height: inherit;
+}
+.main_footer > div > ul {
+    height: inherit;
+    display: inline-block;
+    width: 100px;
+    position: absolute;
+    list-style:none;
+    padding-top: 10px;
+    float: right;
+}
+.main_footer > div > ul > li {
+    padding-top: 20px;
+    width: 100px;
+    margin-left: 30px;
+}
+.main_footer > div > #logo {
+    height:inherit;
+    display: inline-block;
+    height: 200px;
+    float: left;
+}
+.main_footer > div > #logo > img {
+    height: inherit;
+    width: auto;
+}

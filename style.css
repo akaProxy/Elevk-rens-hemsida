@@ -18,6 +18,7 @@ html, body {
     background-image: url('header.jpg');
     background-size: cover;
     background-position: center;
+    margin-bottom: -50px;
 }
 
 main {
@@ -38,6 +39,14 @@ main>.instagram {
 main > .flow {
 
     margin-left: 300px;
+}
+main > section > article {
+    background: white;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    border-radius: 3px;
 }
 main > section > article > p {
     padding: 10px;

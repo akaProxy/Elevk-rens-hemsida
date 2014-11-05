@@ -30,10 +30,11 @@ main {
 }
 main>.instagram {
     /*detta tror jag är instaflow*/
-    height: 100px;
+    height: 700px;;
+    overflow: scroll;
     float: left;
     width: 300px;
-    background: red;
+    margin-right:20px;
     
 }
 main > .flow {

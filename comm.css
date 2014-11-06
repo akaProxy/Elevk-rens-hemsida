@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html, body {
+    height: 100%;
+    min-width: 800px;
+    background: rgb(240,240,240);
+}
+#wrapper {
+    min-height: 100%;
+    position: relative;
+    text-align: center;
+}
+#wrapper > header {
+    height: 400px;
+    background-image: url('header.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -50px;
+}
+
+main {
+    padding-bottom: 300px;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+main > article {
+    display: inline-block;
+    text-align: left;
+    height: 100px;
+    width: 400px;
+    vertical-align: top;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(0,0,0, 0.3);
+    background-image:url('http://lorempixel.com/400/200/');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}

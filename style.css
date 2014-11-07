@@ -1,76 +1,111 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+.bgred {
+    background-color: #D12121;
 }
-html, body {
-    height: 100%;
-    min-width: 800px;
-    background: rgb(240,240,240);
-}
-#wrapper {
-    min-height: 100%;
-    position: relative;
-}
-
-#wrapper > header {
-    height: 400px;
-    background-image: url('header.jpg');
-    background-size: cover;
-    background-position: center;
-    margin-bottom: -50px;
-}
-
-main {
-    padding-bottom: 300px;
+.placement {
     margin:auto;
     padding-left: 30px;
     padding-right: 30px;
     max-width: 1000px;
 }
-main>.instagram {
-    /*detta tror jag är instaflow*/
-    height: 700px;
-    
-    float: left;
-    width: 300px;
-    margin-right:20px;
-    
-}
-main > .flow {
 
-    margin-left: 300px;
-}
-main > section > article {
-    background: white;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    padding: 5px;
+.card {
     box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
     border-radius: 3px;
 }
-main > section > article > p {
-    padding: 10px;
-    }
-main > section > article > header {
-    height: 50px;
-    width: 100%;
+
+/**************************************************************/
+/*************************** HEADER ***************************/
+/**************************************************************/
+#header_nav > nav {
     position: relative;
+    display: inline-block;
+    margin: auto;
 }
-main > section > article > header > h1 {
-    font-size: 25px;
+#header_nav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+	left: 0;
+	right: 0;
+    min-width: 800px;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    display: block;
+    z-index: 2000;
+}
+#header_logo {
+    height: 48px;
+    width: 240px;
+    display: inline-block;
+    background-color: #ccc;
+    top: -15px;
+    text-align: left;
+    position: relative;
+    background-image: url('logo.jpg');
+    background-position: center;
+    background-size: contain;
+}
+#header_nav > nav > ul > li {
+    display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    color: white;
+    font-weight: bold;
+}
+#header_nav > nav > ul {
+    display: inline-block;
+    list-style: none;
+}
+
+
+/**************************************************************/
+/*************************** FOOTER ***************************/
+/**************************************************************/
+
+.main_footer {
+    height: 200px;
+    width: 100%;
     position: absolute;
     bottom: 0;
-    padding-left: 10px;
-    
+    text-align: left;
+    background: #cdf;
+    background-color: rgb(200,200,200);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
-main > section > article > header > h2{
-    text-align: right;
-    font-size: 15px;
-    display: block;
+.main_footer > div {
+    height: inherit;
+}
+.main_footer > div > ul {
+    height: inherit;
+    display: inline-block;
+    width: 100px;
     position: absolute;
-    bottom: 2px;
-    right: 0;
-    padding-right: 10px;
-    
+    list-style:none;
+    float: right;
 }
+.main_footer > div > ul > li {
+    padding-top: 20px;
+    width: 100px;
+    margin-left: 30px;
+}
+.main_footer > div > ul > li:first-child {
+    margin-top: 30px;
+}
+.main_footer > div > #logo {
+    height:inherit;
+    display: inline-block;
+    height: 200px;
+    float: left;
+}
+.main_footer > div > #logo > img {
+    height: inherit;
+    width: auto;
+}
+
+/**************************************************************/
+/************************* INSTAGRAM **************************/
+/**************************************************************/
+
+
